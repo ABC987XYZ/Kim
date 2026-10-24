@@ -1,0 +1,112 @@
+:root{--ink:#191919;--muted:#62646b;--paper:#fff;--deep:#0047a0;--moss:#0047a0;--sage:#e6eef8;--mist:#f3f6fa;--line:#dce1e8;--sun:#c83242}
+body{background:#fff;color:#17191d}
+.ivy-frame{display:none!important}
+.sidebar{background:linear-gradient(160deg,#083d85,#0047a0)}
+.brand span{background:#fff;color:#c83242}
+.course-label,.streak small,.profile small{color:#d5e2f4}
+.nav-link.active,.nav-link:hover{background:#ffffff20}
+.nav-link em{background:#fff;color:#c83242}
+.streak>span{color:#fff}
+.continue-card{background:linear-gradient(135deg,#f7f9fc,#fff);border-color:#dce1e8}
+.pill{background:#e5edf8;color:#0047a0}
+.eyebrow,.step-label,.flashcard .label{color:#0047a0}
+.primary{background:#0047a0}
+.primary span{color:#f2b8bf}
+.text-button span,.skill-card>span:last-child,.library-list button i{color:#0047a0}
+.ring{border-color:#c83242;border-left-color:#edf0f4}
+.skill-card:hover{box-shadow:0 9px 19px #0047a018}
+.skill-icon{color:#0047a0}
+.vocab .skill-icon,.speak .skill-icon{background:#fae6e8}
+.grammar .skill-icon,.listen .skill-icon{background:#e6eef8}
+.week .today i{border-color:#c83242}
+.week .today b{color:#c83242}
+.teacher-intro,.tip{background:#f2f6fb;border-color:#dce6f2}
+.goals span{color:#0047a0}
+.tab.active{border-bottom-color:#c83242}
+.play,.stroke-row>span{background:#e6eef8;color:#0047a0}
+.teacher-says,.challenge{border-left-color:#c83242}
+.big-phrase{background:#fff1f3;border:1px solid #efcbd0}
+.big-phrase .hangul,.big-phrase b{color:#c83242}
+.teacher-says{background:#fff5f6;color:#4b1d25}
+.teacher-says b{color:#c83242}
+.challenge{background:#fff1f3;border-color:#efcbd0;color:#4b1d25}
+.challenge b{color:#c83242}
+.sentence-box,.dialogue{background:#f4f7fb}
+.culture-close{background:#f8ecee}
+.letter-display .hangul{color:#0047a0}
+.stroke-guide{color:#0047a0}
+.find-word{background:#edf3fa}
+.dot.active{background:#c83242}
+.answer-actions .know{background:#e5edf8;color:#0047a0;border-color:#d5e2f2}
+.library-list button:hover{border-color:#85a6d5;background:#f7f9fc}
+.activity-note b{color:#0047a0}
+.daily-card p b,.lesson-side .current,.writing-side li:before{color:#c83242}
+.daily-card p b{color:#c83242}
+.skill-copy b,.activity-note b{color:#1a1a1d}
+.skill-copy small,.activity-note span{color:#62646b}
+.word .roman,.roman{color:#c83242}
+.lesson-side li{border-bottom-color:#dce1e8}
+.lesson-side .current{color:#c83242}
+.writing-side{border-left-color:#ead3d6}
+.writing-side li:before{background:#c83242;color:#fff}
+.writing-side .tip,.tip{background:#fdf3f4}
+.stroke-row{border-color:#ebcdd1}
+.find-word{background:#fff0f2}
+.find-word b{color:#c83242}
+.week i{background:#f9e7e9;border-color:#e9bfc5}
+.week .today i{background:#fff;border-color:#c83242}
+.week .today b{color:#c83242}
+.answer-actions .know{background:#fdecee;color:#c83242;border-color:#efcbd0}
+.ring{border-right-color:#0047a0;border-bottom-color:#0047a0}
+.week>div i{background:#f8e6e8;border:1px solid #e9b8be}
+.week .today i{background:#c83242;border-color:#c83242;box-shadow:inset 0 0 0 5px #fff}
+.week .today b{color:#c83242}
+.week>div b{color:#3c3d43}
+.letter-card{background:#fff8f8;border-color:#efd7da}
+.letter-card .step-label,.letter-progress{color:#c83242}
+.letter-progress .dot{background:#f1dfe1}
+.letter-progress .dot.active{background:#c83242}
+.writing-side li:before{background:#c83242;color:#fff}
+.writing-side li{border-bottom-color:#ecdadd}
+.writing-side .tip{background:#fff1f2}
+.goals{background:#fff8f8;border-color:#e9c4c8}
+.goals span{color:#b7293a}
+.review-page .flashcard{background:#fff7f8;border-color:#e8c4c8}
+.review-page .flashcard .label{color:#c83242}
+.library-list button>span{color:#c83242}
+.library-list button:hover{border-color:#c83242;background:#fff8f8}
+.activity-card .week i{border-color:#eac8cc}
+.forest-art{width:160px!important;flex:0 0 160px!important;margin-left:12px}
+.lesson-hero>div:first-child{max-width:calc(100% - 172px);flex:1;position:relative;z-index:2}
+.mentor-bubble{left:auto;right:-8px;top:2px}
+.character-caption{left:auto;right:0;bottom:-4px;white-space:nowrap}
+@media(max-width:520px){.lesson-hero>div:first-child{max-width:100%}.forest-art{right:4px!important;opacity:.92}.character-caption{display:none}}
+
+/* Detailed daily manga mentor */
+.mentor{filter:drop-shadow(0 5px 2px #1112)}
+.mentor-hair{border:2px solid #171717;box-shadow:inset 0 6px 0 #ffffff20}
+.mentor-hair:before{content:"";position:absolute;left:13px;top:28px;width:46px;height:27px;background:var(--hair);border:2px solid #171717;border-top:0;border-radius:0 0 55% 35%;transform:rotate(-8deg);z-index:4}
+.mentor-hair:after{content:"";position:absolute;right:10px;top:19px;width:27px;height:42px;background:var(--hair);border:2px solid #171717;border-top:0;border-radius:10% 30% 50% 40%;transform:rotate(17deg);z-index:4}
+.mentor-face{border:2px solid #171717;box-shadow:inset 0 3px 0 #ffffff40}
+.mentor-face .eye{position:absolute;top:43px;width:9px;height:12px;border-radius:50% 50% 46% 46%;background:#171717;box-shadow:inset 2px 2px 0 #fff}
+.mentor-face .eye-left{left:22px}.mentor-face .eye-right{right:22px}
+.mentor-face .nose{position:absolute;left:42px;top:59px;width:4px;height:5px;border-radius:50%;background:#bd7b68}
+.mentor-face .smile{position:absolute;left:35px;top:68px;width:16px;height:8px;border-bottom:2px solid #7e3138;border-radius:50%}
+.mentor-face .blush{position:absolute;top:62px;width:13px;height:5px;border-radius:50%;background:#e78686;opacity:.7}
+.mentor-face .blush-left{left:8px}.mentor-face .blush-right{right:8px}
+.mentor-neck{border-left:2px solid #171717;border-right:2px solid #171717}
+.mentor-shirt{border:2px solid #171717;border-bottom:0}
+.shirt-collar{position:absolute;left:45px;top:-3px;width:20px;height:14px;background:#fff;border:1px solid #171717;clip-path:polygon(0 0,100% 0,50% 100%)}
+.hair-clip{position:absolute;z-index:5;left:28px;top:41px;color:#c83242;font-size:16px;text-shadow:0 0 2px #fff}
+.mentor-bubble{border:1px solid #e0e2e7;color:#0047a0}
+.character-caption{color:#0047a0}
+.brand span small{display:block;font:6px "DM Sans",sans-serif;color:#0047a0;line-height:1}
+.avatar{background:#c83242;color:#fff;border:1px solid #f4bdc3}
+.forest-art[data-style="1"] .mentor-hair{border-radius:55% 45% 48% 32%}
+.forest-art[data-style="2"] .mentor-hair:after{right:-10px;top:8px;width:24px;height:52px;border-radius:50%}
+.forest-art[data-style="3"] .mentor-hair:before{left:5px;top:75px;width:24px;height:67px;border-radius:45%;transform:rotate(8deg)}
+.forest-art[data-style="4"] .mentor-hair{border-radius:50% 50% 54% 40%;box-shadow:0 0 0 3px #171717}
+.forest-art[data-style="5"] .mentor-hair:after{right:8px;top:60px;width:22px;height:88px;border-radius:45%}
+.forest-art[data-style="6"] .mentor-hair:before{left:-6px;top:8px;width:27px;height:27px;border-radius:50%}
+.forest-art[data-style="6"] .mentor-hair:after{right:-7px;top:5px;width:28px;height:29px;border-radius:50%}
+@media(prefers-reduced-motion:reduce){.mentor,.ivy-frame b{animation:none}}

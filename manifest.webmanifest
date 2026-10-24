@@ -1,0 +1,18 @@
+{
+  "name": "Kim Korean",
+  "short_name": "Kim Korean",
+  "description": "A daily Korean learning app for Naomi.",
+  "lang": "en",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0047a0",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}
